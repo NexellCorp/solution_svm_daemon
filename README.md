@@ -1,6 +1,10 @@
 # solution_svm_daemon
 
 --------------------------------------------------------------------------------------------------------------- 
+20190712 ver : 2.8.4
+	- deleted wrong assert message. 
+	
+--------------------------------------------------------------------------------------------------------------- 
 20190709 ver : 2.8.3
 	- added daemon main camera count(1 or 4) argument(0 or no argument use default avm_config.txt).
 	- nx_avm_client_cmd_system_connect return camera count.
