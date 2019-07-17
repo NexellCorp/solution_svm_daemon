@@ -13,11 +13,11 @@ left_viewport:0, 0, 1200, 720, hflip:1
 right_viewport:1280, 0, 640, 720, hflip:0
 left_eye:0.0, 244.0, 30.0, 0.0, 0.0, 250.0, 70.0, 0.0
 right_eye:0.0, 300.0, 100.0, 0.0, 0.0, 0.0, 60.0, 0.0
-top_info:/svmdata/avm/avm_info_topview.data
-onecam_info:/svmdata/avm_onecam/avm_info_topview.data
-3d_info:/svmdata/avm/avm_info_3dview.data
-car_model:/svmdata/3DS/sonata2018/sonata2018_01_yuv_low.nx3
-pgl_img:/svmdata/ui/pgl_128_128_4.rgba
-senwall_img:/svmdata/ui/wall.bmp
+top_info:/product/avm/avm_info_topview.data
+onecam_info:/product/avm_onecam/avm_info_topview.data
+3d_info:/product/avm/avm_info_3dview.data
+car_model:/oem/3DS/sonata2018/sonata2018_01_yuv_low.nx3
+pgl_img:/oem/ui/pgl_128_128_4.rgba
+senwall_img:/oem/ui/wall.bmp
 autobrightness_en:1, autobrightness_mode:1
 

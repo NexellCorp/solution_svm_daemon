@@ -16,9 +16,9 @@ right_viewport:1280, 0, 640, 720, hflip:1
 left_eye:0.0, 70.0, -70.0, 0.0, 0.0, -12.0, 60.0, 1.0
 right_eye:0.0, 300.0, 140.0, 0.0, 0.0, 139.0, 60.0, 2.2
 top_info:
-onecam_info:/svmdata/avm_onecam/avm_info_topview.data
+onecam_info:/product/avm_onecam/avm_info_topview.data
 3d_info:
 car_model:
-pgl_img:/svmdata/ui/pgl_128_128_4.rgba
+pgl_img:/product/ui/pgl_128_128_4.rgba
 senwall_img:
 
