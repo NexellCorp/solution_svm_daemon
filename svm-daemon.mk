@@ -14,32 +14,32 @@
 #
 
 PRODUCT_COPY_FILES += \
-    device/nexell/app/NxSvmDaemon/bin/nx_3d_avm_daemon_dbg:$(TARGET_ROOT_OUT)/root/sbin/nx_3d_avm_daemon_dbg \
-    device/nexell/app/NxSvmDaemon/bin/nx_3d_avm_daemon:$(TARGET_ROOT_OUT)/root/sbin/nx_3d_avm_daemon \
-    device/nexell/app/NxSvmDaemon/bin/test_capture:$(TARGET_ROOT_OUT)/root/sbin/test_capture \
-    device/nexell/app/NxSvmDaemon/bin/test_view_rawimage:$(TARGET_ROOT_OUT)/root/sbin/test_view_rawimage
+    device/nexell/app/svm_daemon/bin/nx_3d_avm_daemon_dbg:$(TARGET_ROOT_OUT)/root/sbin/nx_3d_avm_daemon_dbg \
+    device/nexell/app/svm_daemon/bin/nx_3d_avm_daemon:$(TARGET_ROOT_OUT)/root/sbin/nx_3d_avm_daemon \
+    device/nexell/app/svm_daemon/bin/test_capture:$(TARGET_ROOT_OUT)/root/sbin/test_capture \
+    device/nexell/app/svm_daemon/bin/test_view_rawimage:$(TARGET_ROOT_OUT)/root/sbin/test_view_rawimage
 
 PRODUCT_COPY_FILES += \
-    device/nexell/app/NxSvmDaemon/lib/android/libnxavm_client_dbg.so:$(TARGET_ROOT_OUT)/system/lib/libnxavm_client_dbg.so \
-    device/nexell/app/NxSvmDaemon/lib/android/libnxavm_client.so:$(TARGET_ROOT_OUT)/system/lib/libnxavm_client.so
+    device/nexell/app/svm_daemon/lib/android/libnxavm_client_dbg.so:$(TARGET_ROOT_OUT)/system/lib/libnxavm_client_dbg.so \
+    device/nexell/app/svm_daemon/lib/android/libnxavm_client.so:$(TARGET_ROOT_OUT)/system/lib/libnxavm_client.so
 
 
 PRODUCT_COPY_FILES += \
-    device/nexell/app/NxSvmDaemon/data/ui/pgl_128_128_4.rgba:$(TARGET_ROOT_OUT)/root/oem/ui/pgl_128_128_4.rgba \
-    device/nexell/app/NxSvmDaemon/data/ui/wall.bmp:$(TARGET_ROOT_OUT)/root/oem/ui/wall.bmp
+    device/nexell/app/svm_daemon/data/ui/pgl_128_128_4.rgba:$(TARGET_ROOT_OUT)/root/oem/ui/pgl_128_128_4.rgba \
+    device/nexell/app/svm_daemon/data/ui/wall.bmp:$(TARGET_ROOT_OUT)/root/oem/ui/wall.bmp
 
 PRODUCT_COPY_FILES += \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_01_rgb_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_rgb_high.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_01_rgb_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_rgb_low.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_01_yuv_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_yuv_high.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_01_yuv_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_yuv_low.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_00_yuv_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_yuv_high.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_00_yuv_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_yuv_low.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_00_rgb_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_rgb_low.nx3 \
-    device/nexell/app/NxSvmDaemon/data/3DS/sonata2018/sonata2018_00_rgb_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_rgb_high.nx3
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_01_rgb_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_rgb_high.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_01_rgb_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_rgb_low.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_01_yuv_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_yuv_high.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_01_yuv_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_01_yuv_low.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_00_yuv_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_yuv_high.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_00_yuv_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_yuv_low.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_00_rgb_low.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_rgb_low.nx3 \
+    device/nexell/app/svm_daemon/data/3DS/sonata2018/sonata2018_00_rgb_high.nx3:$(TARGET_ROOT_OUT)/root/oem/3DS/sonata2018/sonata2018_00_rgb_high.nx3
 
 PRODUCT_COPY_FILES += \
-    device/nexell/app/NxSvmDaemon/data/avm/avm_info_topview.data:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_info_topview.data \
-    device/nexell/app/NxSvmDaemon/data/avm/avm_info_3dview.data:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_info_3dview.data \
-    device/nexell/app/NxSvmDaemon/data/avm_onecam/avm_info_topview.data:$(TARGET_COPY_OUT_PRODUCT)/avm_onecam/avm_info_topview.data \
-    device/nexell/app/NxSvmDaemon/data/avm_onecam/avm_config_onecam.txt:$(TARGET_COPY_OUT_PRODUCT)/avm_onecam/avm_config_onecam.txt \
+    device/nexell/app/svm_daemon/data/avm/avm_info_topview.data:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_info_topview.data \
+    device/nexell/app/svm_daemon/data/avm/avm_info_3dview.data:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_info_3dview.data \
+    device/nexell/app/svm_daemon/data/avm_onecam/avm_info_topview.data:$(TARGET_COPY_OUT_PRODUCT)/avm_onecam/avm_info_topview.data \
+    device/nexell/app/svm_daemon/data/avm_onecam/avm_config_onecam.txt:$(TARGET_COPY_OUT_PRODUCT)/avm_onecam/avm_config_onecam.txt \
