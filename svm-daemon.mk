@@ -41,5 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/nexell/app/svm_daemon/data/avm/avm_info_topview.data:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_info_topview.data \
     device/nexell/app/svm_daemon/data/avm/avm_info_3dview.data:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_info_3dview.data \
+    device/nexell/app/svm_daemon/data/avm/avm_config.txt:$(TARGET_COPY_OUT_PRODUCT)/avm/avm_config.txt \
     device/nexell/app/svm_daemon/data/avm_onecam/avm_info_topview.data:$(TARGET_COPY_OUT_PRODUCT)/avm_onecam/avm_info_topview.data \
     device/nexell/app/svm_daemon/data/avm_onecam/avm_config_onecam.txt:$(TARGET_COPY_OUT_PRODUCT)/avm_onecam/avm_config_onecam.txt \
