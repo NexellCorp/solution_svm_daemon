@@ -1,6 +1,18 @@
 # solution_svm_daemon
 
 ---------------------------------------------------------------------------------------------------------------
+20190909
+	ver : 2.8.8
+	- added NX_AVM_GPIO_UNEXPOROT_EN definition at NX_CGpioControl.cpp.
+	  (Android and QT don't enable this definition.)
+	
+---------------------------------------------------------------------------------------------------------------
+20190903
+	ver : 2.8.7
+	- added raw image view feature.
+	- added new client libary API. (nx_avm_client_cmd_scene_set_rawimage)
+	- added new client tutorial. (tutorial_03_raw_image)
+	
 20190723
 	ver : 2.8.6
 	- support NXP5431.
