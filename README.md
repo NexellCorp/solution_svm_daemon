@@ -1,6 +1,7 @@
 # solution_svm_daemon
 
 ---------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 20190909
 	ver : 2.8.8
 	- added NX_AVM_GPIO_UNEXPOROT_EN definition at NX_CGpioControl.cpp.
@@ -13,6 +14,8 @@
 	- added new client libary API. (nx_avm_client_cmd_scene_set_rawimage)
 	- added new client tutorial. (tutorial_03_raw_image)
 	
+=======
+>>>>>>> 430af9c5bb803009da7455d1d43e1a7c8b9594e7
 20190723
 	ver : 2.8.6
 	- support NXP5431.
