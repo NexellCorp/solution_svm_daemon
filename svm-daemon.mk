@@ -16,6 +16,7 @@ ANDROID_VERSION_STR := $(PLATFORM_VERSION)
 ANDROID_VERSION := $(firstword $(ANDROID_VERSION_STR))
 
 ifeq ($(ANDROID_VERSION), 9)
+PRODUCT_COPY_FILES += \
     vendor/nexell/app/svm_daemon/bin/nx_3d_avm_daemon_dbg:$(TARGET_ROOT_OUT)/root/sbin/nx_3d_avm_daemon_dbg \
     vendor/nexell/app/svm_daemon/bin/nx_3d_avm_daemon:$(TARGET_ROOT_OUT)/root/sbin/nx_3d_avm_daemon \
     vendor/nexell/app/svm_daemon/bin/test_capture:$(TARGET_ROOT_OUT)/root/sbin/test_capture \
